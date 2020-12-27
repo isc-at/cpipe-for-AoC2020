@@ -31,7 +31,7 @@ Using IRIS terminal:
 $ docker-compose exec iris iris session iris "##class(rcc.AoC20).Run()"
 ```
 ## Hint
-Directory ##./in/## contains all my personal input files and some test versions.  
-If you want to use your personal input you should replace it as 1 file by day.  
+Directory __.in/__ contains all my input files and some pulic test data.  
+If you want to use your personal input you should replace them as 1 file by day.  
 e.g. input01.txt, input02.txt,........ ,input25.txt exactly as you download 
 them from AOC2020.
