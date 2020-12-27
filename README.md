@@ -1,4 +1,5 @@
-This is an example based on [Advent of Code](https://adventofcode.com/) contest.
+This is a practical example how cpipe can be used to communicate with modules written in a different  
+programming language as a somewhat realistic case based on [Advent of Code](https://adventofcode.com/) contest.
 
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
