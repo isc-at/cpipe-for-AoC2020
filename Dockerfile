@@ -11,7 +11,7 @@ RUN apt-get install nano
 USER ${ISC_PACKAGE_MGRUSER}
 
 #COPY  Installer.cls .
-COPY  src src
+COPY  in in
 COPY  py py
 COPY  src src
 COPY module.xml module.xml
