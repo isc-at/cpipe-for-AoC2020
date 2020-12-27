@@ -7,9 +7,12 @@ USER root
         
 WORKDIR /opt/irisapp
 RUN chown ${ISC_PACKAGE_MGRUSER}:${ISC_PACKAGE_IRISGROUP} /opt/irisapp
+RUN apt-get install nano
 USER ${ISC_PACKAGE_MGRUSER}
 
 #COPY  Installer.cls .
+COPY  src src
+COPY  py py
 COPY  src src
 COPY module.xml module.xml
 COPY iris.script /tmp/iris.script
