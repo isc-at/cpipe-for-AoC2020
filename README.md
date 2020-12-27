@@ -1,4 +1,4 @@
-This is a practical example how cpipe can be used to communicate with modules written in a different  
+This is a practical example how __CPIPE__ can be used to communicate with modules written in a different  
 programming language as a somewhat realistic case based on [Advent of Code](https://adventofcode.com/) contest.
 
 ## Prerequisites
