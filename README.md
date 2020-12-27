@@ -1,5 +1,5 @@
-## aoc2020-template
-This is a template for [Advent of Code](https://adventofcode.com/) ObjectScript contest.
+This is an example based on [Advent of Code](https://adventofcode.com/) contest.
+
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
 
@@ -25,40 +25,13 @@ $ docker-compose up -d
 
 ## How to Test it
 
-Open IRIS terminal:
+Using IRIS terminal:
 
 ```
-$ docker-compose exec iris iris session iris
-USER>w ##class(dc.aoc2020.Day1).Run()
+$ docker-compose exec iris iris session iris "##class(rcc.AoC20).Run()"
 ```
-## How to start coding
-This repository is ready to code in VSCode with ObjectScript plugin.
-Install [VSCode](https://code.visualstudio.com/), [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) and [ObjectScript](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript) plugin and open the folder in VSCode.
-Open /src/cls/PackageSample/ObjectScript.cls class and try to make changes - it will be compiled in running IRIS docker container.
-
-Feel free to delete PackageSample folder and place your ObjectScript classes in a form
-/src/Package/Classname.cls
-[Read more about folder setup for InterSystems ObjectScript](https://community.intersystems.com/post/simplified-objectscript-source-folder-structure-package-manager)
-
-The script in Installer.cls will import everything you place under /src into IRIS.
-
-
-## What's inside the repository
-
-### Dockerfile
-
-The simplest dockerfile which starts IRIS and imports code from /src folder into it.
-Use the related docker-compose.yml to easily setup additional parametes like port number and where you map keys and host folders.
-
-### iris.script
-
-Setup Objectscript code which is being executed during docker build phase
-
-### .vscode/settings.json
-
-Settings file to let you immedietly code in VSCode with [VSCode ObjectScript plugin](https://marketplace.visualstudio.com/items?itemName=daimor.vscode-objectscript))
-
-### .vscode/launch.json
-Config file if you want to debug with VSCode ObjectScript
-
-[Read about all the files in this artilce](https://community.intersystems.com/post/dockerfile-and-friends-or-how-run-and-collaborate-objectscript-projects-intersystems-iris)
+## Hint
+Directory ##./in/## contains all my personal input files and some test versions.  
+If you want to use your personal input you should replace it as 1 file by day.  
+e.g. input01.txt, input02.txt,........ ,input25.txt exactly as you download 
+them from AOC2020.
