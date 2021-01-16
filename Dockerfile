@@ -7,7 +7,9 @@ USER root
         
 WORKDIR /opt/irisapp
 RUN chown ${ISC_PACKAGE_MGRUSER}:${ISC_PACKAGE_IRISGROUP} /opt/irisapp
-# RUN apt-get install nano
+RUN \
+  apt-get update && \
+  apt-get -y install nano
 USER ${ISC_PACKAGE_MGRUSER}
 
 #COPY  Installer.cls .
