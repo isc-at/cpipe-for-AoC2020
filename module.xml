@@ -8,6 +8,7 @@
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="rcc.AoC20.CLS"/>
       <FileCopy Name="py/" Target="${libdir}py/"/>
+      <FileCopy Name="in/" Target="${libdir}in/"/>
     </Module>
   </Document>
 </Export>
