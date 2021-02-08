@@ -5,6 +5,9 @@ Parameter CODEWIN = "C:\GitHub\aoc\py\";
 
 Parameter CODELNX = "/opt/irisapp/py/";
 
+/// Description
+Parameter PY = "lib/py";
+
 /// Parameter PY = "C:\Users\cemper\AppData\Local\Microsoft\WindowsApps\";
 ClassMethod Run()
 {
@@ -29,11 +32,12 @@ ClassMethod pipe(day = "")
  	set dev="|CPIPE|1"
  	set $zt="close"
  	set empty=0
+	set path=##class(%File).NormalizeDirectory(..#PY, $System.Util.InstallDirectory())
  	if $zversion(1)=3 {
- 		set cmd="cd "_..#CODELNX_ " ; python3 d"_day_".py" 
+ 		set cmd="cd "_path_ " ; python3 d"_day_".py" 
 	 	}
 	else  {
- 		set cmd="cd "_..#CODEWIN_ " &&  "_"python3 d"_day_".py" 
+ 		set cmd="cd "_path_ " &&  "_"python3 d"_day_".py" 
 		}
    	write !,"+++++ starting : day"_day_" +++++++++",! 
 	open dev:cmd:0 
