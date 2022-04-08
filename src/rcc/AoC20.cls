@@ -25,7 +25,7 @@ ClassMethod Run()
 	quit
 }
 
-ClassMethod pipe(day = "")
+ClassMethod pipe(day = "") as %Integer
 {
 	quit:'day 0
 	set day=$e(100+day,2,3)
