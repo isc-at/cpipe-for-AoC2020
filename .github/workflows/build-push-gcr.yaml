@@ -8,9 +8,9 @@ on:
 
 env:
   # Change this section according to your needs
-  IMAGE_NAME:   wsockclient-microsv
-  SERVICE:      wsockclient-microsv
-  DOMAIN_NAME:  wsockclient-microsv.demo.community.intersystems.com
+  IMAGE_NAME:   cpipe-for-aoc2020
+  SERVICE:      cpipe-for-aoc2020
+  DOMAIN_NAME:  cpipe-for-aoc2020.demo.community.intersystems.com
 # Leave this section untouched
   PROJECT_ID:   iris-community-demos
   CLUSTER_NAME: demo
