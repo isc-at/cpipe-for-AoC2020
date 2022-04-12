@@ -40,5 +40,5 @@ e.g. input01.txt, input02.txt,........ ,input25.txt exactly as downloaded from A
     
 [Demo Server Webterminal](https://cpipe-for-aoc2020.demo.community.intersystems.com/terminal/)     
 
-**Code Quality** in SCREENSHOTS
-
+**Code Quality**
+<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1139/screenshots/optvkqwl2ctgy1fw8ddlmsse3ym.jpg">
