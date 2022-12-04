@@ -37,9 +37,3 @@ If you want to use your personal input you should replace them as 1 file by day.
 e.g. input01.txt, input02.txt,........ ,input25.txt exactly as downloaded from AOC2020.    
 
 [Article in DC](https://community.intersystems.com/post/trying-embedded-python)    
-
-[Demo Server SMP](https://cpipe-for-aoc2020.demo.community.intersystems.com/csp/sys/UtilHome.csp)  
-[Demo Server Webterminal](https://cpipe-for-aoc2020.demo.community.intersystems.com/terminal/)     
-
-**Code Quality**
-<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1139/screenshots/optvkqwl2ctgy1fw8ddlmsse3ym.jpg">
