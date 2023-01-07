@@ -1,0 +1,111 @@
+C:\GitHub\cpipe-for-AoC2020\py>python3 d01.py
+Part 1 :  1006875
+Part 2 :  165026160
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d02.py
+part 1:  515
+part 2:  711
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d03.py
+part 1: 218
+part 2: 3847183340
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d04.py
+Part 1: 0
+Part 2: 0
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d04.py
+Part 1: 250
+Part 2: 158
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d04.py
+Part 1: 226
+Part 2: 160
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d05.py
+Part 1: 861
+Part 2: 633
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d06.py
+Part 1: 6161
+Part 2: 2971
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d07.py
+Part 1: 254
+Part 2: 6006
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d08.py
+Part 1: 1384
+                Change line 193 jmp -> nop
+Part 2: 761
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d09.py
+Part 1: 41682220
+Part 2: 5388976
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d10.py
+Part 1: 1980
+Part 2: 4628074479616
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d11.py
+Part 1: 2489
+Part 2: 2180
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d12.py
+Part 1: 445
+Part 2: 42495
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d13.py
+Part 1: 6568
+Part 2: 554865447501099
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d14.py
+
+part 1:  6513443633260
+part 2:  3442819875191
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d15.py
+Part 1: 1085
+Part 2: 10652
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d16.py
+Part 1: 26053
+Part 2: 1515506256421
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d17.py
+Part 1: 237
+Part 2: 2448
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d18.py
+Part 1: 131076645626
+Part 2: 109418509151782
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d19.py
+Part 1: 250
+Part 2: 359
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d20.py
+part 1: 140656720229539
+part 2: 1885
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d21.py
+part 1: 2262
+part 2: cxsvdm,glf,rsbxb,xbnmzr,txdmlzd,vlblq,mtnh,mptbpz
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d22.py
+part 1: 33400
+part 2: 33745
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d23.py
+part 1: 52864379
+part 2: 11591415792
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d24.py
+Part 1: 332  flipped tiles
+Part 2: 3900  Conway Hex
+
+C:\GitHub\cpipe-for-AoC2020\py>python3 d25.py
+Part 1: 8740494 (card -> door)
+        8740494 (door -> card)
+
+C:\GitHub\cpipe-for-AoC2020\py>
